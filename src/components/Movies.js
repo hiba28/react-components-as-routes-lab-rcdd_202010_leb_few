@@ -8,7 +8,7 @@ const Movies = () => {
 
         <div>
           <ul>
-            <li>movie 1</li>
+            movies.map(item => <li> {item.name} </li>)
           </ul>
         </div>
     </div>
